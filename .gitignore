@@ -1,0 +1,27 @@
+
+# Secrets
+.env
+*.env
+backend/.env
+frontend/.env
+
+# Backend
+backend/.venv/
+backend/venv/
+**/__pycache__/
+*.pyc
+backend/data/
+backend/ledger_anchors.jsonl
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Archives and OS files
+*.zip
+.DS_Store
+
+*.env.example
+.env.example

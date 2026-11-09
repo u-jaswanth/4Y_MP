@@ -1,0 +1,33 @@
+# --- Web framework ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# --- Database ---
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.9
+alembic==1.13.2
+pgvector==0.3.6
+
+# --- Auth ---
+# --- Auth ---
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+
+# --- Config ---
+python-dotenv==1.0.1
+pydantic[email]==2.9.2
+
+# --- File storage ---
+cloudinary==1.41.0
+
+# --- RAG / AI pipeline ---
+google-genai==0.3.0
+sentence-transformers==3.1.1
+datasets==2.21.0
+
+# --- PDF ingestion / OCR ---
+pymupdf==1.24.10
+pytesseract==0.3.13
+pillow==10.4.0
